@@ -1,0 +1,36 @@
+Arguments: 
+  D:\LearnQianDuan\NodeJS\nodeJs\path\node.exe C:\Users\BaoHu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add webpack webpack-cli -D
+
+PATH: 
+  C:\Windows\System32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\software_testing\software3\ADB\adb\platform-tools;D:\software_testing\software4\FTP\ant_ftp\ant\apache-ant-1.9.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\tools\NotAboutJava\Google\Google\Chrome\Application;C:\Users\BaoHu\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;D:\LearnQianDuan\NodeJS\nodeJs\path\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\tools\python\path\Scripts\;D:\tools\python\path\;C:\Users\BaoHu\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\BaoHu\AppData\Local\Programs\Python\Python38\;D:\LearnQianDuan\NodeJS\nodeJs\DownloadPath\node_global;C:\Users\BaoHu\AppData\Local\Microsoft\WindowsApps;C:\Users\BaoHu\AppData\Local\Microsoft\WindowsApps;D:\LearnQianDuan\Tools\VSCode\DownloadFilePath\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, mkdir 'D:\LearnQianDuan\NodeJS\nodeJs\path\node_global\node_modules\yarn\yarn_cache\v6\npm-electron-to-chromium-1.4.160-da54e24fddeaca52f37965c7bec1bd964c97d487-integrity'
+
+npm manifest: 
+  {
+    "name": "base",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "senyuxi <dajun226@163.com>",
+    "license": "MIT",
+    "scripts": {
+      "build": "webpack",
+      "serve": "webpack serve"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
