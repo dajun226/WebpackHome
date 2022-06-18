@@ -1,6 +1,8 @@
 const { join } = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 module.exports={
     // 入口文件
     entry:'./src/main.js',
@@ -16,7 +18,7 @@ module.exports={
             // 能引入css
             {
                 test:/\.css/i,
-                use:['style-loader','css-loader']
+                use:[MiniCssExtractPlugin.loader,'css-loader']
             },
             {
                 test:/\.less/i,
@@ -48,7 +50,8 @@ module.exports={
             {
                 test: /\.vue$/,
                 loader: 'vue-loader'
-            }
+            },
+            
         ]
     },
     plugins:[
@@ -56,7 +59,8 @@ module.exports={
             // 调用函数
             template:join(__dirname,'./public/index.html')
         }),
-        new VueLoaderPlugin()
+        new VueLoaderPlugin(),
+        new MiniCssExtractPlugin()
     ],
     // 指定模式
     mode:"development",
